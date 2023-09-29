@@ -12,6 +12,7 @@ export default function Header(){
                 <ul>
                     <li><Link to={"/*"}> HOME </Link></li>
                     <li><Link to={"/characters"}> Gallery </Link></li>
+                    <li><Link to={"/newCharacter"}> Add new character </Link></li>
                 </ul>
             </nav>
 
