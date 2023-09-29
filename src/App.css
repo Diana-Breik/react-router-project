@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+.header{
+background: cornflowerblue;
+  padding: 10px;
+  position: sticky;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
