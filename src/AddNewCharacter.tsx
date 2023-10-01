@@ -1,3 +1,4 @@
+/*
 import {Character} from "./characters.ts";
 import {ChangeEvent, FormEvent, useState} from "react";
 
@@ -38,7 +39,7 @@ export default function AddNewCharacter(props:AddNewCharacterProps){
                Form to add a new character
             </h3>
             <form onSubmit={onCharacterSave}>
-                <input value={name} onChange={onNameChange}/>
+                <input placeholder={"Name"} required value={name} onChange={onNameChange}/>
                 <br/>
                 <input value={species} onChange={onSpeciesChange}/>
                 <br/><br/>
@@ -46,4 +47,4 @@ export default function AddNewCharacter(props:AddNewCharacterProps){
             </form>
         </>
     )
-}
+}*/

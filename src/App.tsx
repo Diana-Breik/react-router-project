@@ -5,7 +5,7 @@ import CharacterGallery from "./CharacterGallery.tsx";
 import {Route, Routes} from "react-router-dom";
 import Welcome from "./Welcome.tsx";
 import Header from "./Header.tsx";
-import AddNewCharacter from "./AddNewCharacter.tsx";
+//import AddNewCharacter from "./AddNewCharacter.tsx";
 import CharacterDetails from "./CharacterDetails.tsx";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
                 <Route path={"/*"} element={<Welcome/>}/>
                 <Route path={"/characters"} element={<CharacterGallery characters={characters}/>}/>
                 <Route path={"/characters/:id"} element={<CharacterDetails characters={characters}/>}/>
-                <Route path={"/newCharacter"} element={<AddNewCharacter addCharacterCallBackMethod ={addCharacterCallBackmethod}  />}/>
+                {/*<Route path={"/characters/add"} element={<AddNewCharacter addCharacterCallBackMethod ={addCharacterCallBackmethod}  />}/>*/}
             </Routes>
         </div>
     )

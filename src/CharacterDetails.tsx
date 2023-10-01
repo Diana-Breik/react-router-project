@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import {Character} from "./characters.ts";
 import {useParams} from "react-router-dom";
@@ -31,3 +32,4 @@ export default function CharacterDetails(props: CharacterDetailsProps) {
         </div>
     );
 }
+
