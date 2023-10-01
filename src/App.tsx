@@ -21,7 +21,7 @@ function App() {
                 <Route path={"/*"} element={<Welcome/>}/>
                 <Route path={"/characters"} element={<CharacterGallery characters={characters}/>}/>
                 {/*<Route path={"/characters/:id"} element={<CharacterDetails characters={characters}/>}/> */}
-                <Route path={"/newCharacter"} element={<AddNewCharacter addCharacterCallBackMethod ={addCharacterCallBackmethod}  />}/>
+                <Route path={"/characters/add"} element={<AddNewCharacter addCharacterCallBackMethod ={addCharacterCallBackmethod}  />}/>
             </Routes>
         </div>
     )
